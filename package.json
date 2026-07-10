@@ -4,21 +4,9 @@
   "homepage": "https://github.com/orientalperil/drf-helpers",
   "type": "module",
   "exports": {
-    "./submitters/formkit": {
-      "types": "./dist/submitters/formkit.d.ts",
-      "import": "./dist/submitters/formkit.js"
-    },
-    "./submitters/parseDrfError": {
-      "types": "./dist/submitters/parseDrfError.d.ts",
-      "import": "./dist/submitters/parseDrfError.js"
-    },
-    "./shared/types": {
-      "types": "./dist/shared/types.d.ts",
-      "import": "./dist/shared/types.js"
-    },
-    "./pagination": {
-      "types": "./dist/pagination.d.ts",
-      "import": "./dist/pagination.js"
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
     }
   },
   "files": [
